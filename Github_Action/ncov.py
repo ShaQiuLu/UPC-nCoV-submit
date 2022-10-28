@@ -60,5 +60,5 @@ if curr_time.minute < 10:
     str = '0' + str(curr_time.minute)
 else:
     str = str(curr_time.minute)
-response = requests.request('get', f'https://api.day.app/xZnrY2aM3xJJK6JsBNfPv3/success!/已上报({curr_time.month}月{curr_time.day}日{curr_time.hour}:{str})?group=疫情防控通签到')icon=http://day.app/assets/images/avatar.jpg
+response = requests.request('get', f'https://api.day.app/xZnrY2aM3xJJK6JsBNfPv3/success!/已上报({curr_time.month}月{curr_time.day}日{curr_time.hour}:{str})?group=疫情防控通签到')/icon?icon=http://day.app/assets/images/avatar.jpg
 print(response)
