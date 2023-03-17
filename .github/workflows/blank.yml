@@ -46,6 +46,6 @@ jobs:
         cd Github_Action
         echo $USER_TXT > user.txt
         cat user.txt
-        python ncov.py
+        python3 ncov.py
         
 
